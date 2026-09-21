@@ -7,7 +7,6 @@ from typing import Optional, List, Tuple
 
 from ..config import Dataset, LLMName
 from ..utils import call_gemini
-from ..utils.hf_model import call_hf_model
 
 
 def _load_rules_from_file(
@@ -318,9 +317,16 @@ You can regenerate the provided source so that it strictly adheres to the "Quali
     
     # Determine which model to use
     if model_path:
-        return call_hf_model(user_prompt, model_path=model_path)
+        from ..utils.hf_model import call_hf_model
+        return call_hf_model(
+        user_prompt,
+        model_path=model_path
+        )
     else:
-        return call_gemini(user_prompt, model_name="gemini-2.5-pro")
+        return call_gemini(
+        user_prompt,
+        model_name="gemini-2.5-pro"
+    )
 
 
 def get_rewrite_prompt_template(dataset: str, engine_llm: str, 
