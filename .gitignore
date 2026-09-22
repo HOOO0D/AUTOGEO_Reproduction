@@ -181,3 +181,21 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+keys.env
+
+# Local secrets
+keys.env
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Local logs
+logs/
+
+# OS
+.DS_Store
