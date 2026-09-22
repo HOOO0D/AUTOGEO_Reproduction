@@ -8,7 +8,11 @@ Provides different implementations of document rewriters:
 """
 from .core import rewrite_document, get_rewrite_prompt_template
 from .api import api_rewrite_documents
-
+from .adversarial import (
+    adversarial_rewrite_documents,
+    hijack_rewrite,
+    poisoning_rewrite,
+)
 
 def mini_rewrite_documents(*args, **kwargs):
     """
@@ -23,4 +27,7 @@ __all__ = [
     "get_rewrite_prompt_template",
     "api_rewrite_documents",
     "mini_rewrite_documents",
+    "adversarial_rewrite_documents",
+    "hijack_rewrite",
+    "poisoning_rewrite",
 ]
