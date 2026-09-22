@@ -1,5 +1,4 @@
 import json
-import openai
 import os
 import sys
 import glob
@@ -10,7 +9,6 @@ from pathlib import Path
 from typing import Optional, Any
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
-from dotenv import load_dotenv
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from .metrics import *
@@ -19,8 +17,6 @@ from .generative_engine import generate_answer_gemini, generate_answer_gpt, gene
 from ..utils.logger import get_logger
 
 nltk.download('punkt_tab', quiet=True)
-load_dotenv("keys.env")
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def process_prediction_text(text: str, length: int = 3000) -> str:
     """Process prediction text to extract rewritten content.
@@ -287,5 +283,4 @@ def autogeo_evaluation(
         geu_results = aggregate_json_files(data_dir, rewrite_method_name + "_geu_score")
         logger.info(f"\nGeu Score Results:")
         logger.info(pprint.pformat(geu_results))
-
 

@@ -52,6 +52,9 @@ def normalize_model_name(model_name: str) -> str:
     if model_name.startswith("gpt-"):
         return f"openai/{model_name}"
 
+    if model_name.startswith("claude-"):
+        return f"anthropic/{model_name}"
+
     raise ValueError(
         f"Unknown model name: {model_name}. "
         "Please add it to MODEL_ALIASES in openrouter.py."
@@ -82,9 +85,11 @@ def call_openrouter(
     user_prompt: str,
     model_name: str,
     system_prompt: Optional[str] = None,
-    temperature: float = 0.7,
+    temperature: Optional[float] = 0.7,
     max_tokens: Optional[int] = None,
     provider: Optional[Dict[str, Any]] = None,
+    response_format: Optional[Dict[str, Any]] = None,
+    max_retries: int = MAX_RETRIES,
 ) -> str:
 
     model = normalize_model_name(model_name)
@@ -104,16 +109,21 @@ def call_openrouter(
 
     client = get_openrouter_client()
 
-    for attempt in range(MAX_RETRIES):
+    for attempt in range(max_retries):
         try:
             kwargs = {
                 "model": model,
                 "messages": messages,
-                "temperature": temperature,
             }
+
+            if temperature is not None:
+                kwargs["temperature"] = temperature
 
             if max_tokens is not None:
                 kwargs["max_tokens"] = max_tokens
+
+            if response_format is not None:
+                kwargs["response_format"] = response_format
 
             # OpenRouter provider routing，可选
             if provider is not None:
@@ -133,10 +143,10 @@ def call_openrouter(
             return content
 
         except Exception as e:
-            if attempt < MAX_RETRIES - 1:
+            if attempt < max_retries - 1:
                 print(
                     f"[OpenRouter] {model} failed "
-                    f"({attempt + 1}/{MAX_RETRIES}): {e}"
+                    f"({attempt + 1}/{max_retries}): {e}"
                 )
                 time.sleep(RETRY_DELAY_SECONDS)
             else:

@@ -1,4 +1,3 @@
-import openai
 import os
 import re
 import time
@@ -6,8 +5,6 @@ import glob
 import threading
 import concurrent.futures
 import logging
-from openai import OpenAI
-
 import json
 import logging
 from typing import Dict, Any, List, Optional, Tuple, Literal
@@ -15,6 +12,8 @@ from pydantic import BaseModel, Field, ValidationError, create_model
 from dotenv import load_dotenv
 from pathlib import Path
 from tqdm import tqdm
+
+from ...utils.openrouter import call_openrouter
 
 load_dotenv("keys.env")
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%H:%M:%S')
@@ -24,13 +23,6 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("httpcore").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 logging.getLogger("openai").setLevel(logging.WARNING)
-
-try:
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-except openai.OpenAIError:
-    client = None
-    logging.error("OpenAI client could not be initialized. Check if OPENAI_API_KEY is set.")
-
 
 def preprocess_data_for_evaluation(
     filename: str, 
@@ -302,18 +294,16 @@ def call_llm_for_json(prompt: str, pydantic_model: BaseModel, max_retries: int =
     Returns:
         Validated Pydantic model instance, or None if all retries fail
     """
-    if not client:
-        return None
-        
     for attempt in range(max_retries):
         try:
-            response = client.chat.completions.create(
-                model='gpt-4o-mini',
-                messages=[{"role": "user", "content": prompt}],
+            content = call_openrouter(
+                user_prompt=prompt,
+                model_name='gpt-4o-mini',
                 temperature=0.0,
-                response_format={"type": "json_object"}
+                response_format={"type": "json_object"},
+                # This function owns its three-attempt parse/API retry loop.
+                max_retries=1,
             )
-            content = response.choices[0].message.content
             parsed_json = json.loads(content)
             return pydantic_model.model_validate(parsed_json)
         except (json.JSONDecodeError, ValidationError) as e:
@@ -527,10 +517,6 @@ def evaluate_ge_utility(
     max_workers: int = 5,
     pbar: Optional[tqdm] = None
 ) -> Dict[str, Dict[str, Any]]:
-    if not client:
-        logging.error("FATAL: OpenAI client not initialized. Aborting.")
-        return {}
-        
     results = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers, thread_name_prefix='EvalWorker') as executor:
         future_to_qid = {

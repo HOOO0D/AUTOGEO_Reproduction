@@ -1,0 +1,20 @@
+{
+    "merged_rules": [
+        "Directly address the user's core question at the beginning of the document, avoiding unnecessary preamble.",
+        "Ensure the document's content is highly relevant to the query, eliminating all tangential or off-topic information.",
+        "Establish authority and trustworthiness by citing credible sources or providing references for claims.",
+        "Offer actionable information, such as step-by-step instructions, practical frameworks, or clear prerequisites.",
+        "Provide comprehensive, in-depth explanations of the topic, covering nuances, causal relationships, and multiple facets.",
+        "Provide specific, verifiable details such as names, numbers, dates, and concrete examples, avoiding generalities.",
+        "Structure the document logically with clear headings, subheadings, and lists (bulleted or numbered) to facilitate parsing and information extraction.",
+        "Write concisely, eliminating redundant phrases, verbose explanations, and unnecessary jargon."
+    ],
+    "filtered_rules": [
+        "Establish authority and trustworthiness by citing credible sources or providing references for claims.",
+        "Offer actionable information, such as step-by-step instructions, practical frameworks, or clear prerequisites.",
+        "Provide comprehensive, in-depth explanations of the topic, covering nuances, causal relationships, and multiple facets.",
+        "Provide specific, verifiable details such as names, numbers, dates, and concrete examples, avoiding generalities.",
+        "Structure the document logically with clear headings, subheadings, and lists (bulleted or numbered) to facilitate parsing and information extraction.",
+        "Write concisely, eliminating redundant phrases, verbose explanations, and unnecessary jargon."
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "split_version": "researchy_keypoint_v2",
+  "dataset_repo": "cx-cmu/Researchy-GEO",
+  "dataset_config": "main",
+  "seed": 20260922,
+  "sizes": {
+    "dev": 20,
+    "rule_pool": 100,
+    "test": 50,
+    "quality": 10
+  },
+  "source_splits": {
+    "dev": "main/test (development subset)",
+    "rule_pool": "main/train",
+    "test": "main/test (held-out final subset)",
+    "quality": "subset of Test50"
+  },
+  "keypoint_policy": {
+    "dev_requires_keypoints": true,
+    "test_requires_keypoints": true,
+    "quality_requires_keypoints": true,
+    "rule_pool_requires_keypoints": false
+  },
+  "official_keypoint_coverage": {
+    "train_total": 9998,
+    "train_with_keypoints": 0,
+    "test_total": 1000,
+    "test_with_keypoints": 976
+  },
+  "hashes": {
+    "dev20_sha256": "178a10908e26e16da6476136dab55503a6f462f1bc5b8a61498fa5a53f6f8b83",
+    "rulepool100_sha256": "3cc2eed67d6aa2dd0c789b831a986e7f1eca3b0761d77233aae27b4c25bc5f02",
+    "test50_sha256": "90f423891877cc8284412354cca39251bf289e480592333951763ef5066e7447",
+    "dev20_keypoints_sha256": "94e9c22903f981a200d25ed1062f987c868a3ec61458a4c01dcaaca6b6fadcb7",
+    "test50_keypoints_sha256": "0ae2340fce92cc35fb9e704b7860c3afff584798de9744327ef4792a29a79c56",
+    "quality10_keypoints_sha256": "e9752bb082d0afb52a5294d9578d47fc454c9b009e6281a2dbdab7b354fc6957"
+  }
+}
