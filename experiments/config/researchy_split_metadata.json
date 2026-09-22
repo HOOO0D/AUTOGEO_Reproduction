@@ -1,0 +1,22 @@
+{
+  "dataset_repo": "cx-cmu/Researchy-GEO",
+  "dataset_config": "main",
+  "seed": 20260922,
+  "sizes": {
+    "dev": 20,
+    "rule_pool": 100,
+    "test": 50,
+    "quality": 10
+  },
+  "source_splits": {
+    "dev": "main/train",
+    "rule_pool": "main/train",
+    "test": "main/test",
+    "quality": "subset of Test50"
+  },
+  "hashes": {
+    "dev20_sha256": "17b4d4ed75afeeb446c7dd6f753743d99310f124ec17523787a19db03a960ea5",
+    "rulepool100_sha256": "705737d8af94e0a905ccca685d045886dae065d235a70adf75e736360a151f6f",
+    "test50_sha256": "caa84f77746dc98bb15593a9eebbc0803a519b62371245d3292339e8f91982d7"
+  }
+}
