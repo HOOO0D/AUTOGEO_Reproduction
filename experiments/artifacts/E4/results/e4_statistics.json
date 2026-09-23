@@ -1,0 +1,54 @@
+{
+    "keyword_counts": {
+        "researchy_geo": 12,
+        "geo_bench": 13,
+        "ecommerce": 12,
+        "union": 19
+    },
+    "jaccard_percent": {
+        "researchy_geo_vs_geo_bench": 66.66666666666666,
+        "researchy_geo_vs_ecommerce": 26.31578947368421,
+        "geo_bench_vs_ecommerce": 38.88888888888889
+    },
+    "domain_gap": {
+        "open_domain_overlap": 66.66666666666666,
+        "mean_ecommerce_cross_domain_overlap": 32.60233918128655,
+        "open_domain_advantage_pp": 34.064327485380105
+    },
+    "common_all": [
+        "Clear Language",
+        "Conciseness",
+        "Logical Structure",
+        "Topic Focus"
+    ],
+    "shared_exactly_two": {
+        "researchy_geo_geo_bench": [
+            "Actionable",
+            "Balanced View",
+            "Cohesive Flow",
+            "In-depth",
+            "Source Citation",
+            "Specific Evidence"
+        ],
+        "researchy_geo_ecommerce": [
+            "Neutral Tone"
+        ],
+        "geo_bench_ecommerce": [
+            "Comprehensive",
+            "Factual Accuracy",
+            "Up-to-date"
+        ]
+    },
+    "unique": {
+        "researchy_geo": [
+            "Term Definition"
+        ],
+        "geo_bench": [],
+        "ecommerce": [
+            "Non-Exaggerated",
+            "Production Details",
+            "Pros & Cons Rec",
+            "Step-by-Step Guide"
+        ]
+    }
+}

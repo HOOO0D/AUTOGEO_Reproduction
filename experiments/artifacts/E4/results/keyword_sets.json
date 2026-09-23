@@ -1,0 +1,45 @@
+{
+    "researchy_geo": [
+        "Actionable",
+        "Balanced View",
+        "Clear Language",
+        "Cohesive Flow",
+        "Conciseness",
+        "In-depth",
+        "Logical Structure",
+        "Neutral Tone",
+        "Source Citation",
+        "Specific Evidence",
+        "Term Definition",
+        "Topic Focus"
+    ],
+    "geo_bench": [
+        "Actionable",
+        "Balanced View",
+        "Clear Language",
+        "Cohesive Flow",
+        "Comprehensive",
+        "Conciseness",
+        "Factual Accuracy",
+        "In-depth",
+        "Logical Structure",
+        "Source Citation",
+        "Specific Evidence",
+        "Topic Focus",
+        "Up-to-date"
+    ],
+    "ecommerce": [
+        "Clear Language",
+        "Comprehensive",
+        "Conciseness",
+        "Factual Accuracy",
+        "Logical Structure",
+        "Neutral Tone",
+        "Non-Exaggerated",
+        "Production Details",
+        "Pros & Cons Rec",
+        "Step-by-Step Guide",
+        "Topic Focus",
+        "Up-to-date"
+    ]
+}

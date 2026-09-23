@@ -1,0 +1,90 @@
+{
+    "researchy_geo_vs_geo_bench": {
+        "intersection_count": 10,
+        "union_count": 15,
+        "jaccard": 0.6666666666666666,
+        "overlap_percent": 66.66666666666666,
+        "common_keywords": [
+            "Actionable",
+            "Balanced View",
+            "Clear Language",
+            "Cohesive Flow",
+            "Conciseness",
+            "In-depth",
+            "Logical Structure",
+            "Source Citation",
+            "Specific Evidence",
+            "Topic Focus"
+        ],
+        "researchy_geo_only": [
+            "Neutral Tone",
+            "Term Definition"
+        ],
+        "geo_bench_only": [
+            "Comprehensive",
+            "Factual Accuracy",
+            "Up-to-date"
+        ]
+    },
+    "researchy_geo_vs_ecommerce": {
+        "intersection_count": 5,
+        "union_count": 19,
+        "jaccard": 0.2631578947368421,
+        "overlap_percent": 26.31578947368421,
+        "common_keywords": [
+            "Clear Language",
+            "Conciseness",
+            "Logical Structure",
+            "Neutral Tone",
+            "Topic Focus"
+        ],
+        "researchy_geo_only": [
+            "Actionable",
+            "Balanced View",
+            "Cohesive Flow",
+            "In-depth",
+            "Source Citation",
+            "Specific Evidence",
+            "Term Definition"
+        ],
+        "ecommerce_only": [
+            "Comprehensive",
+            "Factual Accuracy",
+            "Non-Exaggerated",
+            "Production Details",
+            "Pros & Cons Rec",
+            "Step-by-Step Guide",
+            "Up-to-date"
+        ]
+    },
+    "geo_bench_vs_ecommerce": {
+        "intersection_count": 7,
+        "union_count": 18,
+        "jaccard": 0.3888888888888889,
+        "overlap_percent": 38.88888888888889,
+        "common_keywords": [
+            "Clear Language",
+            "Comprehensive",
+            "Conciseness",
+            "Factual Accuracy",
+            "Logical Structure",
+            "Topic Focus",
+            "Up-to-date"
+        ],
+        "geo_bench_only": [
+            "Actionable",
+            "Balanced View",
+            "Cohesive Flow",
+            "In-depth",
+            "Source Citation",
+            "Specific Evidence"
+        ],
+        "ecommerce_only": [
+            "Neutral Tone",
+            "Non-Exaggerated",
+            "Production Details",
+            "Pros & Cons Rec",
+            "Step-by-Step Guide"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "merged_rules": [
+        "Clearly state the publication or data-recency date to establish timeliness and context.",
+        "Content must be highly relevant and focused on the query's topic, minimizing tangential discussions, promotional material, and other noise.",
+        "Directly address the user's query upfront, placing the primary answer and key information in a prominent, easily accessible location.",
+        "Ensure all information is factually accurate, verifiable, and attributed to credible sources or authors where possible.",
+        "Explain underlying mechanisms, reasons, and nuances to provide deeper understanding beyond surface-level facts.",
+        "Organize content with a clear, logical structure using headings, lists, tables, and distinct sections to facilitate automated parsing and information extraction.",
+        "Present a balanced, multi-faceted perspective, including different viewpoints, theories, or counterarguments where appropriate.",
+        "Present information in a cohesive, logically flowing narrative or argument, avoiding fragmented or disconnected points.",
+        "Provide a comprehensive and complete answer, covering multiple facets, contexts, and nuances to fully address the user's query.",
+        "Provide specific, quantifiable details such as names, dates, statistics, and concrete examples to support claims, avoiding vague or general statements.",
+        "Use clear, action-oriented language when providing instructions, steps, or recommendations.",
+        "Write clearly and concisely, avoiding jargon, conversational filler, and unnecessary verbosity to ensure information is easily digestible."
+    ],
+    "filtered_rules": [
+        "Clearly state the publication or data-recency date to establish timeliness and context.",
+        "Content must minimize tangential discussions, promotional material, and other noise.",
+        "Ensure all information is factually accurate, verifiable, and attributed to credible sources or authors where possible.",
+        "Explain underlying mechanisms, reasons, and nuances to provide deeper understanding beyond surface-level facts.",
+        "Organize content with a clear, logical structure using headings, lists, tables, and distinct sections to facilitate automated parsing and information extraction.",
+        "Present a balanced, multi-faceted perspective, including different viewpoints, theories, or counterarguments where appropriate.",
+        "Present information in a cohesive, logically flowing narrative or argument, avoiding fragmented or disconnected points.",
+        "Provide a comprehensive and complete answer, covering multiple facets, contexts, and nuances.",
+        "Provide specific, quantifiable details such as names, dates, statistics, and concrete examples to support claims, avoiding vague or general statements.",
+        "Use clear, action-oriented language when providing instructions, steps, or recommendations.",
+        "Write clearly and concisely, avoiding jargon, conversational filler, and unnecessary verbosity to ensure information is easily digestible."
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "merged_rules": [
+        "Clearly define key terms and distinguish between related but distinct concepts, especially when they are central to the query.",
+        "Directly address the user's core question upfront, with the title and introduction clearly signaling relevance.",
+        "Ensure all content is highly relevant to the user's query, maintaining a tight focus and eliminating tangential, promotional, or contradictory information.",
+        "Explain the underlying mechanisms, processes, and causal factors (the 'how' and 'why') behind the information presented.",
+        "Minimize non-informational content like advertisements, user metadata, or excessive navigation that can hinder automated parsing.",
+        "Present information as a coherent and unified narrative, avoiding fragmented, repetitive, or incomplete content.",
+        "Present information factually and objectively, distinguishing between evidence and opinion, and providing a balanced view unless the query specifies otherwise.",
+        "Provide a comprehensive, multi-faceted answer that explores nuances, different perspectives, and relevant context to ensure depth.",
+        "Provide actionable advice, solutions, or next steps when the query's intent is to solve a problem or accomplish a task.",
+        "Structure information with a clear hierarchy using headings, subheadings, lists, and distinct paragraphs to ensure logical flow and facilitate automated parsing.",
+        "Substantiate claims with specific, verifiable details such as concrete examples, data, statistics, and citations to credible sources.",
+        "Write clearly and concisely, avoiding jargon, repetition, and unnecessary verbosity to deliver information efficiently."
+    ],
+    "filtered_rules": [
+        "Clearly define key terms and distinguish between related but distinct concepts.",
+        "Ensure all content maintains a tight focus and eliminates tangential, promotional, or contradictory information.",
+        "Explain the underlying mechanisms, processes, and causal factors (the 'how' and 'why').",
+        "Minimize non-informational content like advertisements, user metadata, or excessive navigation that can hinder automated parsing.",
+        "Present information as a coherent and unified narrative, avoiding fragmented, repetitive, or incomplete content.",
+        "Present information factually and objectively, distinguishing between evidence and opinion, and providing a balanced view.",
+        "Provide actionable advice, solutions, or next steps.",
+        "Structure information with a clear hierarchy using headings, subheadings, lists, and distinct paragraphs to ensure logical flow and facilitate automated parsing.",
+        "Substantiate claims with specific, verifiable details such as concrete examples, data, statistics, and citations to credible sources.",
+        "Write clearly and concisely, avoiding jargon, repetition, and unnecessary verbosity to deliver information efficiently."
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "merged_rules": [
+        "Curate information and structure the document to match the user's requested output, such as a list, comparison, or direct answer.",
+        "Directly address all explicit and implicit components of the user's query, including entities, constraints, and underlying intent.",
+        "Ensure all information is factually accurate, internally consistent, and up-to-date.",
+        "Maintain a tight focus on the query's topic, removing any irrelevant, promotional, or navigational content.",
+        "Offer comprehensive coverage of the query, including a sufficient breadth of options and nuanced perspectives like pros and cons.",
+        "Present information concisely, eliminating filler words, unnecessary jargon, and verbose narrative.",
+        "Prioritize objective, authoritative, or evidence-backed information over subjective opinions or unverified claims.",
+        "Provide actionable guidance through clear recommendations, use cases, justifications, or next steps.",
+        "Provide specific, verifiable, and quantifiable details such as names, metrics, and specifications instead of generalizations.",
+        "Use a clear, hierarchical structure with elements like headings, subheadings, lists, and tables to facilitate automated parsing."
+    ],
+    "filtered_rules": [
+        "Ensure all information is factually accurate, internally consistent, and up-to-date.",
+        "Maintain a tight focus, removing any irrelevant, promotional, or navigational content.",
+        "Offer comprehensive coverage, including a sufficient breadth of options and nuanced perspectives like pros and cons.",
+        "Present information concisely, eliminating filler words, unnecessary jargon, and verbose narrative.",
+        "Prioritize objective, authoritative, or evidence-backed information over subjective opinions or unverified claims.",
+        "Provide actionable guidance through clear recommendations, use cases, justifications, or next steps.",
+        "Provide specific, verifiable, and quantifiable details such as names, metrics, and specifications instead of generalizations.",
+        "Use a clear, hierarchical structure with elements like headings, subheadings, lists, and tables to facilitate automated parsing."
+    ]
+}
