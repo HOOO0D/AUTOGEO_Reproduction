@@ -1,0 +1,284 @@
+{
+    "gemini": [
+        {
+            "rule_id": "gemini_01",
+            "rule": "Claims must be supported with specific and verifiable evidence, such as quantitative data, statistics, or concrete examples.",
+            "keywords": [
+                "Specific Evidence"
+            ]
+        },
+        {
+            "rule_id": "gemini_02",
+            "rule": "Information must be organized using a clear, hierarchical structure with elements like headings, subheadings, lists, or tables to facilitate parsing.",
+            "keywords": [
+                "Logical Structure"
+            ]
+        },
+        {
+            "rule_id": "gemini_03",
+            "rule": "The content must be factually accurate, reliable, and up-to-date.",
+            "keywords": [
+                "Factual Accuracy",
+                "Up-to-date"
+            ]
+        },
+        {
+            "rule_id": "gemini_04",
+            "rule": "The document must be technically complete and accessible, free of elements like paywalls, broken formatting, or non-content noise that impede parsing.",
+            "keywords": [
+                "Accessibility"
+            ]
+        },
+        {
+            "rule_id": "gemini_05",
+            "rule": "The document must clearly distinguish between objective factual information and subjective opinion or speculation.",
+            "keywords": [
+                "Neutral Tone"
+            ]
+        },
+        {
+            "rule_id": "gemini_06",
+            "rule": "The document must maintain a tight focus on the topic and avoid irrelevant information.",
+            "keywords": [
+                "Topic Focus"
+            ]
+        },
+        {
+            "rule_id": "gemini_07",
+            "rule": "The document must use clear and direct language, avoiding unnecessary jargon, verbosity, and conversational filler.",
+            "keywords": [
+                "Clear Language",
+                "Conciseness"
+            ]
+        },
+        {
+            "rule_id": "gemini_08",
+            "rule": "The document should cite credible sources or attribute information to experts to establish authority and allow for verification.",
+            "keywords": [
+                "Source Citation"
+            ]
+        },
+        {
+            "rule_id": "gemini_09",
+            "rule": "The document should present a balanced and nuanced perspective, including multiple viewpoints or addressing complexities where appropriate.",
+            "keywords": [
+                "Balanced View"
+            ]
+        },
+        {
+            "rule_id": "gemini_10",
+            "rule": "The document should present information in a logically coherent flow, avoiding fragmentation and disorganization.",
+            "keywords": [
+                "Cohesive Flow"
+            ]
+        },
+        {
+            "rule_id": "gemini_11",
+            "rule": "The document should provide a comprehensive, multi-faceted overview of the topic, covering all key aspects.",
+            "keywords": [
+                "Comprehensive"
+            ]
+        },
+        {
+            "rule_id": "gemini_12",
+            "rule": "The document should provide explanatory depth by detailing the 'why' and 'how' of a topic, not just stating surface-level facts.",
+            "keywords": [
+                "In-depth"
+            ]
+        },
+        {
+            "rule_id": "gemini_13",
+            "rule": "The document should state a direct summary at the beginning.",
+            "keywords": [
+                "Conclusion First"
+            ]
+        }
+    ],
+    "gpt": [
+        {
+            "rule_id": "gpt_01",
+            "rule": "Define key terms and concepts to ensure unambiguous understanding.",
+            "keywords": [
+                "Clear Language"
+            ]
+        },
+        {
+            "rule_id": "gpt_02",
+            "rule": "Ensure the document is self-contained, providing all necessary information without relying on un-provided external links.",
+            "keywords": [
+                "Self-Contained"
+            ]
+        },
+        {
+            "rule_id": "gpt_03",
+            "rule": "Include author and publication date metadata to signal timeliness and authority.",
+            "keywords": [
+                "Up-to-date"
+            ]
+        },
+        {
+            "rule_id": "gpt_04",
+            "rule": "Maintain a singular focus on the topic, eliminating tangential, promotional, and conversational content.",
+            "keywords": [
+                "Topic Focus",
+                "Informational Purpose"
+            ]
+        },
+        {
+            "rule_id": "gpt_05",
+            "rule": "Organize content with a logical flow using semantic headings, lists, and tables for machine readability.",
+            "keywords": [
+                "Logical Structure",
+                "Cohesive Flow"
+            ]
+        },
+        {
+            "rule_id": "gpt_06",
+            "rule": "Present a balanced perspective that acknowledges complexity, counterarguments, and different viewpoints.",
+            "keywords": [
+                "Balanced View"
+            ]
+        },
+        {
+            "rule_id": "gpt_07",
+            "rule": "Prioritize objective, factual information over unsubstantiated opinions or anecdotes.",
+            "keywords": [
+                "Neutral Tone"
+            ]
+        },
+        {
+            "rule_id": "gpt_08",
+            "rule": "Provide actionable insights or steps.",
+            "keywords": [
+                "Actionable"
+            ]
+        },
+        {
+            "rule_id": "gpt_09",
+            "rule": "Provide comprehensive coverage that explains the 'how' and 'why' of a topic, not just the 'what'.",
+            "keywords": [
+                "Comprehensive",
+                "In-depth"
+            ]
+        },
+        {
+            "rule_id": "gpt_10",
+            "rule": "Remove non-content elements like UI boilerplate, advertisements, and irrelevant metadata.",
+            "keywords": [
+                "Topic Focus",
+                "Informational Purpose"
+            ]
+        },
+        {
+            "rule_id": "gpt_11",
+            "rule": "Support claims with specific, verifiable evidence such as data, examples, and citations to authoritative sources.",
+            "keywords": [
+                "Specific Evidence",
+                "Source Citation"
+            ]
+        },
+        {
+            "rule_id": "gpt_12",
+            "rule": "Synthesize information into a cohesive narrative rather than presenting fragmented points.",
+            "keywords": [
+                "Cohesive Flow"
+            ]
+        },
+        {
+            "rule_id": "gpt_13",
+            "rule": "Write in a clear, concise, and accessible style, avoiding jargon and unnecessary verbosity.",
+            "keywords": [
+                "Clear Language",
+                "Conciseness"
+            ]
+        }
+    ],
+    "claude": [
+        {
+            "rule_id": "claude_01",
+            "rule": "Acknowledge nuance, complexities, and multiple perspectives, especially for multi-faceted topics.",
+            "keywords": [
+                "Balanced View"
+            ]
+        },
+        {
+            "rule_id": "claude_02",
+            "rule": "Define key concepts, technical terms, and acronyms upon first use.",
+            "keywords": [
+                "Clear Language"
+            ]
+        },
+        {
+            "rule_id": "claude_03",
+            "rule": "Ensure a cohesive narrative with a logical flow that connects ideas clearly.",
+            "keywords": [
+                "Cohesive Flow"
+            ]
+        },
+        {
+            "rule_id": "claude_04",
+            "rule": "Ensure factual accuracy by citing credible, authoritative sources for all claims.",
+            "keywords": [
+                "Factual Accuracy",
+                "Source Citation"
+            ]
+        },
+        {
+            "rule_id": "claude_05",
+            "rule": "Focus content entirely, eliminating irrelevant information, promotional material, and conversational filler.",
+            "keywords": [
+                "Topic Focus",
+                "Informational Purpose"
+            ]
+        },
+        {
+            "rule_id": "claude_06",
+            "rule": "Maintain an objective, neutral tone, avoiding emotional appeals and unsubstantiated opinions.",
+            "keywords": [
+                "Neutral Tone"
+            ]
+        },
+        {
+            "rule_id": "claude_07",
+            "rule": "Provide specific, actionable details or instructions instead of high-level, abstract concepts.",
+            "keywords": [
+                "Actionable"
+            ]
+        },
+        {
+            "rule_id": "claude_08",
+            "rule": "Structure content logically with clear headings, subheadings, lists, and focused paragraphs to facilitate parsing.",
+            "keywords": [
+                "Logical Structure"
+            ]
+        },
+        {
+            "rule_id": "claude_09",
+            "rule": "Support claims with specific, verifiable evidence such as quantifiable data, statistics, or concrete examples.",
+            "keywords": [
+                "Specific Evidence"
+            ]
+        },
+        {
+            "rule_id": "claude_10",
+            "rule": "Use clear, simple, and unambiguous language, avoiding excessive jargon.",
+            "keywords": [
+                "Clear Language"
+            ]
+        },
+        {
+            "rule_id": "claude_11",
+            "rule": "Use current, up-to-date information and data, especially for time-sensitive topics.",
+            "keywords": [
+                "Up-to-date"
+            ]
+        },
+        {
+            "rule_id": "claude_12",
+            "rule": "Write concisely, avoiding repetition, excessive verbosity, and unnecessary preamble.",
+            "keywords": [
+                "Conciseness"
+            ]
+        }
+    ]
+}

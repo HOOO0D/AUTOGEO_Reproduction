@@ -1,0 +1,51 @@
+{
+    "gemini": [
+        "Accessibility",
+        "Balanced View",
+        "Clear Language",
+        "Cohesive Flow",
+        "Comprehensive",
+        "Conciseness",
+        "Conclusion First",
+        "Factual Accuracy",
+        "In-depth",
+        "Logical Structure",
+        "Neutral Tone",
+        "Source Citation",
+        "Specific Evidence",
+        "Topic Focus",
+        "Up-to-date"
+    ],
+    "gpt": [
+        "Actionable",
+        "Balanced View",
+        "Clear Language",
+        "Cohesive Flow",
+        "Comprehensive",
+        "Conciseness",
+        "In-depth",
+        "Informational Purpose",
+        "Logical Structure",
+        "Neutral Tone",
+        "Self-Contained",
+        "Source Citation",
+        "Specific Evidence",
+        "Topic Focus",
+        "Up-to-date"
+    ],
+    "claude": [
+        "Actionable",
+        "Balanced View",
+        "Clear Language",
+        "Cohesive Flow",
+        "Conciseness",
+        "Factual Accuracy",
+        "Informational Purpose",
+        "Logical Structure",
+        "Neutral Tone",
+        "Source Citation",
+        "Specific Evidence",
+        "Topic Focus",
+        "Up-to-date"
+    ]
+}

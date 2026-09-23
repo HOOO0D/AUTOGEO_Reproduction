@@ -1,0 +1,4 @@
+﻿pair,intersection,union,reproduction_jaccard_percent,paper_jaccard_percent,difference_pp
+gemini_vs_gpt,12,18,66.67,78.95,-12.28
+gemini_vs_claude,11,17,64.71,84.21,-19.50
+gpt_vs_claude,12,16,75.00,84.21,-9.21

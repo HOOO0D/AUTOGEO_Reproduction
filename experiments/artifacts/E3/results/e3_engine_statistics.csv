@@ -1,0 +1,4 @@
+﻿engine,rule_count,keyword_count,canonical_keyword_count,keyword_coverage_percent
+gemini,13,15,20,75.00
+gpt,13,15,20,75.00
+claude,12,13,20,65.00

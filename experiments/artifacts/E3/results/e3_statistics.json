@@ -1,0 +1,141 @@
+{
+    "rule_counts": {
+        "gemini": 13,
+        "gpt": 13,
+        "claude": 12
+    },
+    "keyword_counts": {
+        "gemini": 15,
+        "gpt": 15,
+        "claude": 13
+    },
+    "keyword_coverage_percent": {
+        "gemini": 75.0,
+        "gpt": 75.0,
+        "claude": 65.0
+    },
+    "global": {
+        "observed_union_count": 18,
+        "taxonomy_coverage_percent": 90.0,
+        "common_all_count": 10,
+        "shared_exactly_two_count": 5,
+        "unique_one_engine_count": 3,
+        "multi_engine_keyword_count": 15,
+        "multi_engine_percent": 83.33333333333334,
+        "unique_percent": 16.666666666666664
+    },
+    "pairwise": {
+        "gemini_vs_gpt": {
+            "intersection": 12,
+            "union": 18,
+            "jaccard_percent": 66.66666666666666,
+            "paper_percent": 78.95,
+            "difference_pp": -12.283333333333346
+        },
+        "gemini_vs_claude": {
+            "intersection": 11,
+            "union": 17,
+            "jaccard_percent": 64.70588235294117,
+            "paper_percent": 84.21,
+            "difference_pp": -19.50411764705882
+        },
+        "gpt_vs_claude": {
+            "intersection": 12,
+            "union": 16,
+            "jaccard_percent": 75.0,
+            "paper_percent": 84.21,
+            "difference_pp": -9.209999999999994
+        }
+    },
+    "mean_jaccard_percent": 68.79084967320262,
+    "paper_mean_jaccard_percent": 82.45666666666666,
+    "mean_difference_pp": -13.665816993464048,
+    "common_shared_unique": {
+        "common_all": [
+            "Balanced View",
+            "Clear Language",
+            "Cohesive Flow",
+            "Conciseness",
+            "Logical Structure",
+            "Neutral Tone",
+            "Source Citation",
+            "Specific Evidence",
+            "Topic Focus",
+            "Up-to-date"
+        ],
+        "shared": {
+            "gemini_gpt": [
+                "Comprehensive",
+                "In-depth"
+            ],
+            "gemini_claude": [
+                "Factual Accuracy"
+            ],
+            "gpt_claude": [
+                "Actionable",
+                "Informational Purpose"
+            ]
+        },
+        "unique": {
+            "gemini": [
+                "Accessibility",
+                "Conclusion First"
+            ],
+            "gpt": [
+                "Self-Contained"
+            ],
+            "claude": []
+        }
+    },
+    "keyword_frequency": {
+        "gemini": {
+            "Specific Evidence": 1,
+            "Logical Structure": 1,
+            "Factual Accuracy": 1,
+            "Up-to-date": 1,
+            "Accessibility": 1,
+            "Neutral Tone": 1,
+            "Topic Focus": 1,
+            "Clear Language": 1,
+            "Conciseness": 1,
+            "Source Citation": 1,
+            "Balanced View": 1,
+            "Cohesive Flow": 1,
+            "Comprehensive": 1,
+            "In-depth": 1,
+            "Conclusion First": 1
+        },
+        "gpt": {
+            "Clear Language": 2,
+            "Self-Contained": 1,
+            "Up-to-date": 1,
+            "Topic Focus": 2,
+            "Informational Purpose": 2,
+            "Logical Structure": 1,
+            "Cohesive Flow": 2,
+            "Balanced View": 1,
+            "Neutral Tone": 1,
+            "Actionable": 1,
+            "Comprehensive": 1,
+            "In-depth": 1,
+            "Specific Evidence": 1,
+            "Source Citation": 1,
+            "Conciseness": 1
+        },
+        "claude": {
+            "Balanced View": 1,
+            "Clear Language": 2,
+            "Cohesive Flow": 1,
+            "Factual Accuracy": 1,
+            "Source Citation": 1,
+            "Topic Focus": 1,
+            "Informational Purpose": 1,
+            "Neutral Tone": 1,
+            "Actionable": 1,
+            "Logical Structure": 1,
+            "Specific Evidence": 1,
+            "Up-to-date": 1,
+            "Conciseness": 1
+        }
+    }
+}

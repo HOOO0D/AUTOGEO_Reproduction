@@ -1,0 +1,37 @@
+{
+    "common_all": [
+        "Balanced View",
+        "Clear Language",
+        "Cohesive Flow",
+        "Conciseness",
+        "Logical Structure",
+        "Neutral Tone",
+        "Source Citation",
+        "Specific Evidence",
+        "Topic Focus",
+        "Up-to-date"
+    ],
+    "shared": {
+        "gemini_gpt": [
+            "Comprehensive",
+            "In-depth"
+        ],
+        "gemini_claude": [
+            "Factual Accuracy"
+        ],
+        "gpt_claude": [
+            "Actionable",
+            "Informational Purpose"
+        ]
+    },
+    "unique": {
+        "gemini": [
+            "Accessibility",
+            "Conclusion First"
+        ],
+        "gpt": [
+            "Self-Contained"
+        ],
+        "claude": []
+    }
+}

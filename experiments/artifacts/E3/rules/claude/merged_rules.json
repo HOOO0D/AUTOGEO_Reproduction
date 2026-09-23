@@ -1,0 +1,32 @@
+{
+    "merged_rules": [
+        "Acknowledge nuance, complexities, and multiple perspectives, especially for multi-faceted topics.",
+        "Address the user's query directly and prominently, preferably in the title and introduction.",
+        "Define key concepts, technical terms, and acronyms upon first use.",
+        "Ensure a cohesive narrative with a logical flow that connects ideas clearly.",
+        "Ensure factual accuracy by citing credible, authoritative sources for all claims.",
+        "Focus content entirely on the query topic, eliminating irrelevant information, promotional material, and conversational filler.",
+        "Maintain an objective, neutral tone, avoiding emotional appeals and unsubstantiated opinions.",
+        "Provide a comprehensive and in-depth answer, explaining the 'how' and 'why' behind key points.",
+        "Provide specific, actionable details or instructions instead of high-level, abstract concepts.",
+        "Structure content logically with clear headings, subheadings, lists, and focused paragraphs to facilitate parsing.",
+        "Support claims with specific, verifiable evidence such as quantifiable data, statistics, or concrete examples.",
+        "Use clear, simple, and unambiguous language, avoiding excessive jargon.",
+        "Use current, up-to-date information and data, especially for time-sensitive topics.",
+        "Write concisely, avoiding repetition, excessive verbosity, and unnecessary preamble."
+    ],
+    "filtered_rules": [
+        "Acknowledge nuance, complexities, and multiple perspectives, especially for multi-faceted topics.",
+        "Define key concepts, technical terms, and acronyms upon first use.",
+        "Ensure a cohesive narrative with a logical flow that connects ideas clearly.",
+        "Ensure factual accuracy by citing credible, authoritative sources for all claims.",
+        "Focus content entirely, eliminating irrelevant information, promotional material, and conversational filler.",
+        "Maintain an objective, neutral tone, avoiding emotional appeals and unsubstantiated opinions.",
+        "Provide specific, actionable details or instructions instead of high-level, abstract concepts.",
+        "Structure content logically with clear headings, subheadings, lists, and focused paragraphs to facilitate parsing.",
+        "Support claims with specific, verifiable evidence such as quantifiable data, statistics, or concrete examples.",
+        "Use clear, simple, and unambiguous language, avoiding excessive jargon.",
+        "Use current, up-to-date information and data, especially for time-sensitive topics.",
+        "Write concisely, avoiding repetition, excessive verbosity, and unnecessary preamble."
+    ]
+}

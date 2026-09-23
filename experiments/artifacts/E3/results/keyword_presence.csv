@@ -1,0 +1,21 @@
+﻿keyword,gemini,gpt,claude,count,category
+Accessibility,✓,,,1,Unique
+Actionable,,✓,✓,2,Shared
+Balanced View,✓,✓,✓,3,Common
+Clear Language,✓,✓,✓,3,Common
+Cohesive Flow,✓,✓,✓,3,Common
+Comprehensive,✓,✓,,2,Shared
+Conciseness,✓,✓,✓,3,Common
+Conclusion First,✓,,,1,Unique
+Factual Accuracy,✓,,✓,2,Shared
+In-depth,✓,✓,,2,Shared
+Informational Purpose,,✓,✓,2,Shared
+Logical Structure,✓,✓,✓,3,Common
+Neutral Tone,✓,✓,✓,3,Common
+Self-Contained,,✓,,1,Unique
+Single Idea,,,,0,Absent
+Source Citation,✓,✓,✓,3,Common
+Specific Evidence,✓,✓,✓,3,Common
+Topic Focus,✓,✓,✓,3,Common
+Up-to-date,✓,✓,✓,3,Common
+Writing Quality,,,,0,Absent

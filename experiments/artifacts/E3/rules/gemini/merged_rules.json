@@ -1,0 +1,32 @@
+{
+    "merged_rules": [
+        "Claims must be supported with specific and verifiable evidence, such as quantitative data, statistics, or concrete examples.",
+        "Information must be organized using a clear, hierarchical structure with elements like headings, subheadings, lists, or tables to facilitate parsing.",
+        "The content must be factually accurate, reliable, and up-to-date.",
+        "The document must be technically complete and accessible, free of elements like paywalls, broken formatting, or non-content noise that impede parsing.",
+        "The document must clearly distinguish between objective factual information and subjective opinion or speculation.",
+        "The document must directly address the user's query, maintaining a tight focus on the topic and avoiding irrelevant information.",
+        "The document must use clear and direct language, avoiding unnecessary jargon, verbosity, and conversational filler.",
+        "The document should cite credible sources or attribute information to experts to establish authority and allow for verification.",
+        "The document should present a balanced and nuanced perspective, including multiple viewpoints or addressing complexities where appropriate.",
+        "The document should present information in a logically coherent flow, avoiding fragmentation and disorganization.",
+        "The document should provide a comprehensive, multi-faceted overview of the topic, covering all key aspects relevant to the query.",
+        "The document should provide explanatory depth by detailing the 'why' and 'how' of a topic, not just stating surface-level facts.",
+        "The document should state the core answer or a direct summary at the beginning."
+    ],
+    "filtered_rules": [
+        "Claims must be supported with specific and verifiable evidence, such as quantitative data, statistics, or concrete examples.",
+        "Information must be organized using a clear, hierarchical structure with elements like headings, subheadings, lists, or tables to facilitate parsing.",
+        "The content must be factually accurate, reliable, and up-to-date.",
+        "The document must be technically complete and accessible, free of elements like paywalls, broken formatting, or non-content noise that impede parsing.",
+        "The document must clearly distinguish between objective factual information and subjective opinion or speculation.",
+        "The document must maintain a tight focus on the topic and avoid irrelevant information.",
+        "The document must use clear and direct language, avoiding unnecessary jargon, verbosity, and conversational filler.",
+        "The document should cite credible sources or attribute information to experts to establish authority and allow for verification.",
+        "The document should present a balanced and nuanced perspective, including multiple viewpoints or addressing complexities where appropriate.",
+        "The document should present information in a logically coherent flow, avoiding fragmentation and disorganization.",
+        "The document should provide a comprehensive, multi-faceted overview of the topic, covering all key aspects.",
+        "The document should provide explanatory depth by detailing the 'why' and 'how' of a topic, not just stating surface-level facts.",
+        "The document should state a direct summary at the beginning."
+    ]
+}

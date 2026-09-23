@@ -1,0 +1,89 @@
+{
+    "gemini_vs_gpt": {
+        "intersection_count": 12,
+        "union_count": 18,
+        "jaccard": 0.6666666666666666,
+        "overlap_percent": 66.66666666666666,
+        "common_keywords": [
+            "Balanced View",
+            "Clear Language",
+            "Cohesive Flow",
+            "Comprehensive",
+            "Conciseness",
+            "In-depth",
+            "Logical Structure",
+            "Neutral Tone",
+            "Source Citation",
+            "Specific Evidence",
+            "Topic Focus",
+            "Up-to-date"
+        ],
+        "a_only": [
+            "Accessibility",
+            "Conclusion First",
+            "Factual Accuracy"
+        ],
+        "b_only": [
+            "Actionable",
+            "Informational Purpose",
+            "Self-Contained"
+        ]
+    },
+    "gemini_vs_claude": {
+        "intersection_count": 11,
+        "union_count": 17,
+        "jaccard": 0.6470588235294118,
+        "overlap_percent": 64.70588235294117,
+        "common_keywords": [
+            "Balanced View",
+            "Clear Language",
+            "Cohesive Flow",
+            "Conciseness",
+            "Factual Accuracy",
+            "Logical Structure",
+            "Neutral Tone",
+            "Source Citation",
+            "Specific Evidence",
+            "Topic Focus",
+            "Up-to-date"
+        ],
+        "a_only": [
+            "Accessibility",
+            "Comprehensive",
+            "Conclusion First",
+            "In-depth"
+        ],
+        "b_only": [
+            "Actionable",
+            "Informational Purpose"
+        ]
+    },
+    "gpt_vs_claude": {
+        "intersection_count": 12,
+        "union_count": 16,
+        "jaccard": 0.75,
+        "overlap_percent": 75.0,
+        "common_keywords": [
+            "Actionable",
+            "Balanced View",
+            "Clear Language",
+            "Cohesive Flow",
+            "Conciseness",
+            "Informational Purpose",
+            "Logical Structure",
+            "Neutral Tone",
+            "Source Citation",
+            "Specific Evidence",
+            "Topic Focus",
+            "Up-to-date"
+        ],
+        "a_only": [
+            "Comprehensive",
+            "In-depth",
+            "Self-Contained"
+        ],
+        "b_only": [
+            "Factual Accuracy"
+        ]
+    }
+}
