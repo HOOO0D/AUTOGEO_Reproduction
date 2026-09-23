@@ -141,7 +141,33 @@ def main():
         action="store_true",
         help="Resume from checkpoint if available"
     )
+    parser.add_argument(
+    "--rule_llm",
+    type=str,
+    default=None,
+    help=(
+        "LLM used for preference explanation and initial "
+        "rule extraction."
+    )
+)
+
+    parser.add_argument(
+    "--merge_llm",
+    type=str,
+    default=None,
+    help=(
+        "LLM used for rule merging and filtering."
+    )
+)
+
     args = parser.parse_args()
+    
+    if args.rule_llm is None:
+        args.rule_llm = args.engine_llm
+
+    if args.merge_llm is None:
+        args.merge_llm = "gemini-2.5-pro"
+
     
     # Auto-detect dataset_path if not provided
     if args.dataset_path is None:
@@ -210,12 +236,11 @@ def main():
     individual_results_dir = os.path.join(results_folder, "individual_results")
     
     llm_args = {
-        "model": args.engine_llm,
-        "google_api_key": args.google_api_key,
-        "openai_api_key": args.openai_api_key,
-        "anthropic_api_key": args.anthropic_api_key,
+    "model": args.rule_llm,
+    "google_api_key": args.google_api_key,
+    "openai_api_key": args.openai_api_key,
+    "anthropic_api_key": args.anthropic_api_key,
     }
-    
     # Load and process dataset
     logger.info(f"Loading dataset from: {args.dataset_path}")
     full_dataset = load_engine_preference_dataset(args.dataset_path)
@@ -530,13 +555,15 @@ def main():
         logger.info(f"Found {len(all_rules)} rules in total, with {len(unique_rules)} unique rules before merging.")
         
         # Use stronger model for merging
-        merge_llm_args = {
-            "model": "gemini-2.5-pro",
-            "google_api_key": args.google_api_key,
-            "openai_api_key": args.openai_api_key,
-            "anthropic_api_key": args.anthropic_api_key,
-        }
         
+        merge_llm_args = {
+        "model": args.merge_llm,
+        "google_api_key": args.google_api_key,
+        "openai_api_key": args.openai_api_key,
+        "anthropic_api_key": args.anthropic_api_key,
+        }
+        logger.info(f"Rule LLM: {args.rule_llm}")
+        logger.info(f"Merge LLM: {args.merge_llm}")
         if unique_rules:
             logger.info(f"Starting rule merging process with {len(unique_rules)} unique rules...")
             logger.info("This may take a while as it involves multiple stages: merging, filtering, and contradiction detection.")
@@ -553,7 +580,7 @@ def main():
     
     logger.info("\n" + "="*80)
     logger.info("Rule Extraction Pipeline Completed")
-    logger.info("="*80)
+    logger.info("="*80),
     logger.close()
 
 

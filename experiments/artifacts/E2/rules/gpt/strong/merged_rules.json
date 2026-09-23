@@ -1,0 +1,33 @@
+{
+    "merged_rules": [
+        "Define key terms and concepts to ensure unambiguous understanding.",
+        "Directly address the user's query, signaling relevance in the title and introduction.",
+        "Ensure the document is self-contained, providing all necessary information without relying on un-provided external links.",
+        "Include author and publication date metadata to signal timeliness and authority.",
+        "Maintain a singular focus on the topic, eliminating tangential, promotional, and conversational content.",
+        "Organize content with a logical flow using semantic headings, lists, and tables for machine readability.",
+        "Present a balanced perspective that acknowledges complexity, counterarguments, and different viewpoints.",
+        "Prioritize objective, factual information over unsubstantiated opinions or anecdotes.",
+        "Provide actionable insights or steps when the query implies a need for instruction.",
+        "Provide comprehensive coverage that explains the 'how' and 'why' of a topic, not just the 'what'.",
+        "Remove non-content elements like UI boilerplate, advertisements, and irrelevant metadata.",
+        "Support claims with specific, verifiable evidence such as data, examples, and citations to authoritative sources.",
+        "Synthesize information into a cohesive narrative rather than presenting fragmented points.",
+        "Write in a clear, concise, and accessible style, avoiding jargon and unnecessary verbosity."
+    ],
+    "filtered_rules": [
+        "Define key terms and concepts to ensure unambiguous understanding.",
+        "Ensure the document is self-contained, providing all necessary information without relying on un-provided external links.",
+        "Include author and publication date metadata to signal timeliness and authority.",
+        "Maintain a singular focus on the topic, eliminating tangential, promotional, and conversational content.",
+        "Organize content with a logical flow using semantic headings, lists, and tables for machine readability.",
+        "Present a balanced perspective that acknowledges complexity, counterarguments, and different viewpoints.",
+        "Prioritize objective, factual information over unsubstantiated opinions or anecdotes.",
+        "Provide actionable insights or steps.",
+        "Provide comprehensive coverage that explains the 'how' and 'why' of a topic, not just the 'what'.",
+        "Remove non-content elements like UI boilerplate, advertisements, and irrelevant metadata.",
+        "Support claims with specific, verifiable evidence such as data, examples, and citations to authoritative sources.",
+        "Synthesize information into a cohesive narrative rather than presenting fragmented points.",
+        "Write in a clear, concise, and accessible style, avoiding jargon and unnecessary verbosity."
+    ]
+}
